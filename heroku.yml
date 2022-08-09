@@ -3,5 +3,4 @@ build:
     web: Dockerfile
 run:
   worker:
-    command:
-    release: chmod u+x start.sh && ./start.sh
+    command: chmod u+x start.sh && ./start.sh
